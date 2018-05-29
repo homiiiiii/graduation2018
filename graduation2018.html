@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,23 +10,34 @@ body {font-family: Verdana,
       sans-serif; 
       margin:0; 
       background: black;}
-    nav{width: 100%;
-       height: 45px;
-       background: black;
-        position: fixed;
-        top: 0 ;
-        left: 0;
-        z-index: 999;
-       }
-
-    nav a{color: white;
-          text-decoration: none;
-          font-weight: bold;
-          margin-left: 20px;
-          line-height: 45px;
-          text-align: center;
-          font-size: 1.3em;
-          }
+nav{ z-index: 999; 
+        display:block; 
+        width:100%; 
+        height:45px; 
+        position: fixed; 
+        left:0px; 
+        top:0px; 
+        background: black;
+        transition: all .5s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
+   nav li{display:inline; color:white; right: 0; line-height: 45px; }
+   nav a{text-decoration:none;
+         color:white; 
+         font-weight: 500; 
+         padding:0 2px 11px 2px;  
+         transition: all 0.3s ease-in-out;}
+    .navM:hover{opacity: 0.4;}
+    .navM{margin-left:36px;opacity: 1; }
+    .logo {position: fixed; 
+               left: 0;
+               top: 0;
+               margin-left: 0;
+               margin-top: 0;background: red;}   
+    .mylogo {position: absolute; left:20px; float: left;}    
+      
+    .menu {position: fixed; 
+            right: 15px;
+            top: 0;
+            margin-top: 0;} 
 
 .mySlides {display: none}
 img {vertical-align: middle; 
@@ -138,9 +150,42 @@ p{font-size: 0.8em;
 
 
 
-<nav>     
-     <a href="./untitled.html">HKNUDESIGN Archiving</a> 
+<nav> 
+<ul class="logo">
     
+     <li class="mylogo">
+    <a href="./untitled.html">logo</a> 
+    </li>
+
+</ul>
+
+    <ul class="menu"> 
+
+    <li class="navM">
+    <a href="visual.html">전체보기</a>
+    </li>
+
+
+    <li class="navM">
+    <a href="visual.html">시각 프로젝트</a>
+    </li>
+
+
+     <li class="navM">
+     <a href="interact.html">인터랙션 비즈니스</a>
+     </li>
+
+
+     <li class="navM">
+     <a href="publish.html">출판창업 프로젝트</a>
+     </li>
+
+
+     <li class="navM">
+     <a href="digital.html">디지털 프로젝트</a>
+     </li>
+
+    </ul> 
 </nav>
 
 
