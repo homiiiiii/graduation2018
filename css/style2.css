@@ -97,13 +97,13 @@ article{ width:1320px; padding-top: 40px; margin:auto; margin-top:60px;position:
 	article .work-image iframe{ margin-bottom:20px;}
 
 	article .work-text{width:310px; right: 110px; padding-right:0px; padding-top:10px; position:fixed; }
-			.work-text a{ cursor: pointer;color:#999999; font-weight: 300; margin-top: 30px;}
+			.work-text a{ cursor: pointer;color:#999999; font-weight: 300; margin-top: 50px;}
 			.work-text a:hover{color: #cccccc;}
 				
 			.script .title{ font-weight:700; font-size:18px; letter-spacing:-0.3px; line-height:25px; margin-top: -3px; margin-bottom: 5px; }
 			.script .workLink{line-height:35px; }
 			.script .wlMargin{margin-top:-11px;}
-			.script .indent{position:absolute;  top: 90px; color: #555555;  border-top: 1px solid  #DDDDDD;  border-bottom: 1px solid  #DDDDDD; padding-top: 25px; padding-bottom: 25px;}
+			.script .indent{position:absolute;  top: 110px; color: #555555;  border-top: 1px solid  #DDDDDD;  border-bottom: 1px solid  #DDDDDD; padding-top: 25px; padding-bottom: 25px;}
 			.script hr{ border-width: 0 0 1.6px; }
 			.topStudent{font-size: 13px; font-weight: 700; }
 
