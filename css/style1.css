@@ -17,7 +17,7 @@ a{text-decoration: none;
 .content{width: 100%!important; position: fixed; top:38%; z-index: 1;margin:auto; word-break: keep-all; left:calc(50% - 540px); content: }
 .content p{width:500px; color:#fff;font-size: 16px; line-height: 1.9; display: block; float: left; margin-left: 140px;}
 .column {width:100%; position:relative; margin: auto; top:0; left:calc(50% - 237.5px); word-break: keep-all; font-size:16px; line-height:44px; color:white;}
-.shape {width: 100%; position: absolute; margin-top: -500px;}
+.shape {width: 100%; position: absolute; margin-top: -510px;}
 
 #column1, #column2, #column4 {position:relative; font-size:16px; font-weight:200; line-height: 38px;color: #ddd}
 .intitle{position:fixed; display: block; top:0 ;text-align: center;  color: #ddd; }
