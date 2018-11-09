@@ -9,17 +9,17 @@ a{text-decoration: none;
 .fp-section.active {visibility: visible; opacity: 1; transition: all 1s;}
 
 #section0{background-color: white; cursor:url(../img/scrollcursor.png),url(myBall.cur),auto;}
-#section1{background-color: #000;}
-#section2, #section3{top:0; }
-#section3{line-height: 20px;}
+#section1{background-color: #000; cursor:url(../img/scrollcursor.png),url(myBall.cur),auto;}
+#section2, #section3{top:0; cursor:url(../img/scrollcursor.png),url(myBall.cur),auto;}
+#section3{line-height: 20px; }
 
 
 .content{width: 100%!important; position: fixed; top:38%; z-index: 1;margin:auto; word-break: keep-all; left:calc(50% - 540px); content: }
 .content p{width:500px; color:#fff;font-size: 16px; line-height: 1.9; display: block; float: left; margin-left: 140px;}
 .column {width:100%; position:relative; margin: auto; top:0; left:calc(50% - 237.5px); word-break: keep-all; font-size:16px; line-height:44px; color:white;}
-.shape {width: 100%; position: absolute; margin-top: -500px;}
+.shape {width: 100%; position: absolute; margin-top: -450px;}
 
-#column1, #column2, #column4 {position:relative; font-size:16px; font-weight:200; line-height: 38px;color: #ddd}
+#column1, #column2, #column4 {position:relative; font-size:16px; font-weight:200; line-height: 38px;color: #ddd;cursor:url(../img/scrollcursor.png),url(myBall.cur),auto;}
 .intitle{position:fixed; display: block; top:0 ;text-align: center;  color: #ddd; }
 
 /*#column2 {position:fixed;  top:23%;cursor: pointer; font-weight:200; margin:auto;}
